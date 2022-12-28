@@ -4,7 +4,7 @@ export const AboutMe = () => {
   return (
     <>
       <TextPrimary mb={2.5} variant="h2" color="initial">
-        Sobre mi.
+        Sobre mí.
       </TextPrimary>
       <TextSecondary mb={1.5} variant="h5" color="grey">
         Soy un desarrollador web que he contribuido desde el FRONT END en
