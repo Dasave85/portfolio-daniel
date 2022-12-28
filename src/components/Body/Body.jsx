@@ -1,24 +1,21 @@
 import Grid from "@mui/material/Unstable_Grid2";
 
-import { Divider } from "@mui/material";
-import { Container, TextPrimary } from "../GeneralComponents";
+import { Container } from "../GeneralComponents";
 import { Technologies } from "./Technologies";
 import { AboutMe } from "./AboutMe";
 import { Skills } from "./Skills";
+import { Languages } from "./Languages";
 
 export const Body = () => {
   return (
     <Container container mt={"8rem"}>
-      <AboutMe />
-      <Grid p={4} xs={6} lg={4}>
+      <Grid p={4} xs={6} sm={5} md={4}>
+        <AboutMe />
+      </Grid>
+      <Grid p={4} xs={6} sm={5} md={4}>
         <Technologies />
         <Skills />
-
-        <TextPrimary mb={2} variant="h2" color="initial">
-          Idiomas
-        </TextPrimary>
-        <Divider />
-        <Grid>Aqui los idiomas</Grid>
+        <Languages />
       </Grid>
     </Container>
   );

@@ -13,7 +13,7 @@ import MaterialLogo from "../../assets/iconTechnologies/material-ui-1.svg";
 export const Technologies = () => {
   return (
     <>
-      <TextPrimary mb={2} variant="h2" color="initial">
+      <TextPrimary mb={0.5} variant="h2" color="initial">
         Tecnologías
       </TextPrimary>
       <Divider />

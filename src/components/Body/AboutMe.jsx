@@ -1,9 +1,8 @@
-import Grid from "@mui/material/Unstable_Grid2";
 import { TextPrimary, TextSecondary } from "../GeneralComponents";
 
 export const AboutMe = () => {
   return (
-    <Grid p={4} xs={6} lg={4}>
+    <>
       <TextPrimary mb={2.5} variant="h2" color="initial">
         Sobre mi.
       </TextPrimary>
@@ -22,6 +21,6 @@ export const AboutMe = () => {
         discapacidad física de un 38% la cual no me impide realizar las tareas
         de este sector.
       </TextSecondary>
-    </Grid>
+    </>
   );
 };

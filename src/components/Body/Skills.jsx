@@ -9,7 +9,7 @@ import Organized from "../../assets/iconSkills/task.png";
 export const Skills = () => {
   return (
     <>
-      <TextPrimary mb={2} mt={3} variant="h2" color="initial">
+      <TextPrimary mb={0.5} mt={3} variant="h2" color="initial">
         Habilidades
       </TextPrimary>
       <Divider />
