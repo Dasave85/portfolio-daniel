@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Unstable_Grid2";
-import { Divider, Icon } from "@mui/material";
-import { TextIcon, TextPrimary } from "../GeneralComponents";
+import { Divider } from "@mui/material";
+import { TextPrimary } from "../../styles/GeneralComponents";
 import HtmlLogo from "../../assets/iconTechnologies/html-1.svg";
 import CssLogo from "../../assets/iconTechnologies/css-3.svg";
 import ReduxLogo from "../../assets/iconTechnologies/redux.svg";
@@ -9,6 +9,7 @@ import JavaScriptLogo from "../../assets/iconTechnologies/javascript-1.svg";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import BootstrapLogo from "../../assets/iconTechnologies/bootstrap-5-1.svg";
 import MaterialLogo from "../../assets/iconTechnologies/material-ui-1.svg";
+import { IconTech, TextIcon } from "../../styles/Body";
 
 export const Technologies = () => {
   return (
@@ -29,9 +30,9 @@ export const Technologies = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconTech>
             <img src={HtmlLogo} height="100%" alt="html" />
-          </Icon>
+          </IconTech>
           <TextIcon>HTML</TextIcon>
         </Grid>
         <Grid
@@ -40,9 +41,9 @@ export const Technologies = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconTech sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={CssLogo} height="100%" alt="css" />
-          </Icon>
+          </IconTech>
           <TextIcon>CSS</TextIcon>
         </Grid>
 
@@ -52,9 +53,9 @@ export const Technologies = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconTech sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={JavaScriptLogo} height="100%" alt="javascript" />
-          </Icon>
+          </IconTech>
           <TextIcon>JAVASCRIPT</TextIcon>
         </Grid>
         <Grid
@@ -63,13 +64,15 @@ export const Technologies = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconTech sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={ReactLogo} alt="react" />
-          </Icon>
+          </IconTech>
           <TextIcon>REACT</TextIcon>
         </Grid>
         <Grid display="flex" flexDirection="column" alignItems="center">
-          <GitHubIcon sx={{ fontSize: "5vw" }} />
+          <IconTech>
+            <GitHubIcon sx={{ fontSize: "4vw" }} />
+          </IconTech>
           <TextIcon>GITHUB</TextIcon>
         </Grid>
         <Grid
@@ -78,9 +81,9 @@ export const Technologies = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconTech sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={BootstrapLogo} alt="bootstrap" />
-          </Icon>
+          </IconTech>
           <TextIcon>BOOTSTRAP</TextIcon>
         </Grid>
         <Grid
@@ -89,9 +92,9 @@ export const Technologies = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconTech sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={MaterialLogo} alt="materialui" />
-          </Icon>
+          </IconTech>
           <TextIcon>MUI</TextIcon>
         </Grid>
         <Grid
@@ -100,9 +103,9 @@ export const Technologies = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconTech sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={ReduxLogo} alt="redux" />
-          </Icon>
+          </IconTech>
           <TextIcon>REDUX</TextIcon>
         </Grid>
       </Grid>

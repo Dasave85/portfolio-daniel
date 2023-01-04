@@ -1,14 +1,16 @@
-import { Typography, IconButton, Tooltip } from "@mui/material";
+import { Typography, IconButton, Tooltip, Icon, Link } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
-import imgDaniel from "../../assets/foto-curriculum.jpg";
+import imgDaniel from "../../assets/header/foto-curriculum.jpg";
 import PlaceIcon from "@mui/icons-material/Place";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
-import { HeaderContainer, Photo } from "./HeaderStyles";
-import { TextPrimary, TextSecondary } from "../GeneralComponents";
+import DownloadFile from "../../assets/header/document.svg";
+import pdf from "../../assets/header/Curriculum_Daniel_.pdf";
+import { HeaderContainer, Photo } from "../../styles/Header";
+import { TextPrimary, TextSecondary } from "../../styles/GeneralComponents";
 
 export const Header = () => {
   return (
@@ -20,7 +22,7 @@ export const Header = () => {
         <TextPrimary variant="h2" color="initial">
           Daniel Sánchez Vela
         </TextPrimary>
-        <TextSecondary variant="h2" color="grey">
+        <TextSecondary variant="h2" ml={"2px"}>
           Desarrollador Front End
         </TextSecondary>
         <Grid container mt="2vw" alignItems="center">
@@ -30,9 +32,7 @@ export const Header = () => {
             }}
             color="info"
           />
-          <TextSecondary variant="h4" color="grey">
-            Calafell, Tarragona
-          </TextSecondary>
+          <TextSecondary variant="h4">Calafell, Tarragona</TextSecondary>
         </Grid>
         <Grid container mt="2vw">
           <IconButton href="https://github.com/Dasave85" target="_blank">
@@ -57,6 +57,20 @@ export const Header = () => {
           <Tooltip title={<Typography>dasave85@gmail.com</Typography>}>
             <IconButton>
               <AlternateEmailIcon sx={{ fontSize: "2.5vw" }} color="info" />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title={<Typography>download CV</Typography>}>
+            <IconButton>
+              <Icon sx={{ fontSize: "2.5vw" }}>
+                <Link
+                  href={pdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download="Curriculum_Daniel_Sanchez.pdf"
+                >
+                  <img src={DownloadFile} alt="iconDownload" />
+                </Link>
+              </Icon>
             </IconButton>
           </Tooltip>
         </Grid>

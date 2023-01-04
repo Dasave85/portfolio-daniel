@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
-import { Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
+import { Typography } from "@mui/material";
 
 export const Container = styled(Grid)(() => ({
-  marginTop: "8rem",
+  marginTop: "12vw",
   justifyContent: "center",
 }));
 
@@ -15,10 +15,10 @@ export const TextPrimary = styled(Typography)(() => ({
 export const TextSecondary = styled(Typography)(() => ({
   fontFamily: "Kanit",
   fontSize: "1.8vw",
-  paddingLeft: "2px",
+  color: "grey",
 }));
 
-export const TextIcon = styled(Typography)(() => ({
+export const TextParagraph = styled(Typography)(() => ({
   fontFamily: "Kanit",
-  fontSize: "1vw",
+  fontSize: "1.3vw",
 }));

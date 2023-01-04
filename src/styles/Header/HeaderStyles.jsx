@@ -1,10 +1,9 @@
 import styled from "@emotion/styled";
-import Grid from "@mui/material/Unstable_Grid2";
-import { Avatar } from "@mui/material";
 
-export const HeaderContainer = styled(Grid)(() => ({
-  marginTop: "8rem",
-  justifyContent: "center",
+import { Avatar } from "@mui/material";
+import { Container } from "../GeneralComponents";
+
+export const HeaderContainer = styled(Container)(() => ({
   alignItems: "center",
 }));
 

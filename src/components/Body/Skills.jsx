@@ -1,10 +1,12 @@
 import Grid from "@mui/material/Unstable_Grid2";
-import { Divider, Icon } from "@mui/material";
-import { TextIcon, TextPrimary } from "../GeneralComponents";
+import { Divider } from "@mui/material";
+
 import Adaptation from "../../assets/iconSkills/adaptation.png";
 import Team from "../../assets/iconSkills/team.png";
 import Learning from "../../assets/iconSkills/book.png";
 import Organized from "../../assets/iconSkills/task.png";
+import { TextPrimary } from "../../styles/GeneralComponents";
+import { IconSkills, TextIcon } from "../../styles/Body";
 
 export const Skills = () => {
   return (
@@ -25,9 +27,9 @@ export const Skills = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconSkills>
             <img src={Adaptation} height="100%" alt="adaptation" />
-          </Icon>
+          </IconSkills>
           <TextIcon mt={1}>Adaptación al cambio</TextIcon>
         </Grid>
         <Grid
@@ -36,9 +38,9 @@ export const Skills = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconSkills sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={Team} height="100%" alt="team" />
-          </Icon>
+          </IconSkills>
           <TextIcon mt={1}>Trabajo en equipo</TextIcon>
         </Grid>
         <Grid
@@ -47,9 +49,9 @@ export const Skills = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconSkills sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={Learning} height="100%" alt="learning" />
-          </Icon>
+          </IconSkills>
           <TextIcon mt={1}>Aprendizaje continuo</TextIcon>
         </Grid>
         <Grid
@@ -58,9 +60,9 @@ export const Skills = () => {
           alignItems="center"
           justifyContent="end"
         >
-          <Icon sx={{ fontSize: "4vw", my: "auto" }}>
+          <IconSkills sx={{ fontSize: "4vw", my: "auto" }}>
             <img src={Organized} height="100%" alt="organized" />
-          </Icon>
+          </IconSkills>
           <TextIcon mt={1}>Organizado</TextIcon>
         </Grid>
       </Grid>

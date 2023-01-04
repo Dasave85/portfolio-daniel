@@ -1,6 +1,7 @@
 import Grid from "@mui/material/Unstable_Grid2";
 import { Divider, Rating } from "@mui/material";
-import { TextPrimary, TextSecondary } from "../GeneralComponents";
+import { TextPrimary, TextSecondary } from "../../styles/GeneralComponents";
+import { IconLanguage } from "../../styles/Body";
 
 export const Languages = () => {
   return (
@@ -13,19 +14,26 @@ export const Languages = () => {
         <TextSecondary flexGrow={1} component="legend">
           Castellano
         </TextSecondary>
-        <Rating sx={{ fontSize: "3vw" }} name="spanish" value={5} readOnly />
+
+        <IconLanguage>
+          <Rating sx={{ fontSize: "3vw" }} name="spanish" value={4} readOnly />
+        </IconLanguage>
       </Grid>
       <Grid container alignItems="center" my={2}>
         <TextSecondary flexGrow={1} component="legend">
           Catalan
         </TextSecondary>
-        <Rating sx={{ fontSize: "3vw" }} name="catalan" value={4} readOnly />
+        <IconLanguage>
+          <Rating sx={{ fontSize: "3vw" }} name="catalan" value={4} readOnly />
+        </IconLanguage>
       </Grid>
       <Grid container alignItems="center" my={2}>
         <TextSecondary flexGrow={1} component="legend">
           Inglés
         </TextSecondary>
-        <Rating sx={{ fontSize: "3vw" }} name="spanish" value={3} readOnly />
+        <IconLanguage>
+          <Rating sx={{ fontSize: "3vw" }} name="spanish" value={2} readOnly />
+        </IconLanguage>
       </Grid>
     </>
   );

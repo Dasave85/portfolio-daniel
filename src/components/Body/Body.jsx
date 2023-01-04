@@ -1,10 +1,10 @@
 import Grid from "@mui/material/Unstable_Grid2";
 
-import { Container } from "../GeneralComponents";
 import { Technologies } from "./Technologies";
 import { AboutMe } from "./AboutMe";
 import { Skills } from "./Skills";
 import { Languages } from "./Languages";
+import { Container } from "../../styles/GeneralComponents";
 
 export const Body = () => {
   return (
