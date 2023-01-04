@@ -1,7 +1,4 @@
-import { Body } from "./components/Body/Body";
-import { Header } from "./components/Header/Header";
-import { Training } from "./components/Training";
-import { WorkExperience } from "./components/WorkExperience";
+import { Body, Header, Projects, Training, WorkExperience } from "./components";
 
 function App() {
   return (
@@ -10,6 +7,7 @@ function App() {
       <Body />
       <Training />
       <WorkExperience />
+      <Projects />
     </div>
   );
 }
