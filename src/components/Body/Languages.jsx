@@ -16,7 +16,7 @@ export const Languages = () => {
         </TextSecondary>
 
         <IconLanguage>
-          <Rating sx={{ fontSize: "3vw" }} name="spanish" value={4} readOnly />
+          <Rating sx={{ fontSize: "3vw" }} name="spanish" value={5} readOnly />
         </IconLanguage>
       </Grid>
       <Grid container alignItems="center" my={2}>
@@ -24,7 +24,7 @@ export const Languages = () => {
           Catalan
         </TextSecondary>
         <IconLanguage>
-          <Rating sx={{ fontSize: "3vw" }} name="catalan" value={4} readOnly />
+          <Rating sx={{ fontSize: "3vw" }} name="catalan" value={5} readOnly />
         </IconLanguage>
       </Grid>
       <Grid container alignItems="center" my={2}>
