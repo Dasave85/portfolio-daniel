@@ -23,7 +23,7 @@ export const WorkExperience = () => {
           }}
         >
           {experience.map((props) => {
-            return <CardExperience {...props} />;
+            return <CardExperience key={props.title} {...props} />;
           })}
         </Grid>
       </Container>

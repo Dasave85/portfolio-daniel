@@ -22,7 +22,7 @@ export const Training = () => {
           }}
         >
           {certificates.map((props) => {
-            return <CardCertificate {...props} />;
+            return <CardCertificate key={props.title} {...props} />;
           })}
         </Grid>
       </Container>

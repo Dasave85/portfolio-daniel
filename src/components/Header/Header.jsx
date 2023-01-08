@@ -12,7 +12,7 @@ import pdf from "../../assets/header/Curriculum_Daniel_.pdf";
 import { HeaderContainer, Photo } from "../../styles/Header";
 import { TextPrimary, TextSecondary } from "../../styles/GeneralComponents";
 
-export const Header = () => {
+export const Header = ({ handleClick, handleClickContactButton }) => {
   return (
     <HeaderContainer container>
       <Grid sx={{ mr: "2vw" }}>
@@ -45,7 +45,7 @@ export const Header = () => {
             <LinkedInIcon sx={{ fontSize: "2.5vw" }} color="info" />
           </IconButton>
           <Tooltip title={<Typography>Proyectos</Typography>}>
-            <IconButton onClick={() => {}}>
+            <IconButton onClick={handleClick}>
               <LaptopMacIcon sx={{ fontSize: "2.5vw" }} color="info" />
             </IconButton>
           </Tooltip>
@@ -55,7 +55,7 @@ export const Header = () => {
             </IconButton>
           </Tooltip>
           <Tooltip title={<Typography>dasave85@gmail.com</Typography>}>
-            <IconButton>
+            <IconButton onClick={handleClickContactButton}>
               <AlternateEmailIcon sx={{ fontSize: "2.5vw" }} color="info" />
             </IconButton>
           </Tooltip>

@@ -1,28 +1,24 @@
-import { CardContent, CardMedia, IconButton, Typography } from "@mui/material";
+import { Card, CardContent, IconButton, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import SwitchAccessShortcutIcon from "@mui/icons-material/SwitchAccessShortcut";
 
 import { TextParagraph } from "../../styles/GeneralComponents/GeneralComponents";
-import { CardStyled } from "../../styles/Training/CardStyles";
+import { CardProject } from "../../styles/Projects";
 
 export const Project = ({ imgProject, title, description, link, gitLink }) => {
   return (
     <Grid container xs={6} md={4}>
-      <CardStyled sx={{ m: 2 }}>
+      <Card sx={{ m: 2, display: "flex", flexDirection: "column" }}>
         <Grid
           sx={{
             display: "flex",
+            flexGrow: 1,
             justifyContent: "center",
-            alignItems: "center",
+            alignItems: "start",
           }}
         >
-          <CardMedia
-            component="img"
-            sx={{ width: "100%" }}
-            image={imgProject}
-            alt={title}
-          />
+          <CardProject component="img" image={imgProject} alt={title} />
         </Grid>
         <Grid
           sx={{
@@ -50,7 +46,7 @@ export const Project = ({ imgProject, title, description, link, gitLink }) => {
             </Grid>
           </CardContent>
         </Grid>
-      </CardStyled>
+      </Card>
     </Grid>
   );
 };
