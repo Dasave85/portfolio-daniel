@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-daniel/static/css/main.29d70c3e.css",
+    "main.js": "/portfolio-daniel/static/js/main.6706a8e0.js",
+    "static/media/foto-curriculum.jpg": "/portfolio-daniel/static/media/foto-curriculum.b4132c1727aafa9b8698.jpg",
+    "static/media/bestWorldBurger.jpg": "/portfolio-daniel/static/media/bestWorldBurger.816829eaa846ae55402e.jpg",
+    "static/media/Curriculum_Daniel_.pdf": "/portfolio-daniel/static/media/Curriculum_Daniel_.bdfb4d1ad0db5c42a680.pdf",
+    "static/media/certificacionReact.jpg": "/portfolio-daniel/static/media/certificacionReact.d38825731bcf8a79ec96.jpg",
+    "static/media/starWars.jpg": "/portfolio-daniel/static/media/starWars.c097c9d5a15fceae8ccf.jpg",
+    "static/media/certificationHtmlCss.jpg": "/portfolio-daniel/static/media/certificationHtmlCss.c458ae591c1e6f45236d.jpg",
+    "static/media/book.png": "/portfolio-daniel/static/media/book.b484b2657c5e241540df.png",
+    "static/media/team.png": "/portfolio-daniel/static/media/team.c19560840ebb82d639ac.png",
+    "static/media/adaptation.png": "/portfolio-daniel/static/media/adaptation.542546afb042b1ca2aab.png",
+    "static/media/task.png": "/portfolio-daniel/static/media/task.f5c1e745f1d1d58f2655.png",
+    "static/media/react-2.svg": "/portfolio-daniel/static/media/react-2.3755b6101b4f534bc5a7d80bf2e4e178.svg",
+    "static/media/document.svg": "/portfolio-daniel/static/media/document.5e31f68c5052507824e55411341b0c17.svg",
+    "static/media/redux.svg": "/portfolio-daniel/static/media/redux.52534f628007c9af2016f3efde820fe0.svg",
+    "static/media/bootstrap-5-1.svg": "/portfolio-daniel/static/media/bootstrap-5-1.4804d0f37bb0a97ce77bb4e3a2f3ef4b.svg",
+    "index.html": "/portfolio-daniel/index.html",
+    "static/media/html-1.svg": "/portfolio-daniel/static/media/html-1.342092f1a412b2cab70067bba9d11304.svg",
+    "static/media/css-3.svg": "/portfolio-daniel/static/media/css-3.e3487f4164fafeec4bd4e04ef5971dc1.svg",
+    "static/media/javascript-1.svg": "/portfolio-daniel/static/media/javascript-1.f2831b1d94854d6f9466615373fdf6da.svg",
+    "static/media/material-ui-1.svg": "/portfolio-daniel/static/media/material-ui-1.3491f5a6cd64624d3ee736376d443db5.svg",
+    "main.29d70c3e.css.map": "/portfolio-daniel/static/css/main.29d70c3e.css.map",
+    "main.6706a8e0.js.map": "/portfolio-daniel/static/js/main.6706a8e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29d70c3e.css",
+    "static/js/main.6706a8e0.js"
+  ]
+}
