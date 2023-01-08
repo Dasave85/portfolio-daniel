@@ -8,7 +8,7 @@ import LaptopMacIcon from "@mui/icons-material/LaptopMac";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import DownloadFile from "../../assets/header/document.svg";
-import pdf from "../../assets/header/Curriculum_Daniel_.pdf";
+import pdf from "../../assets/header/Curriculum_Daniel_Sanchez.pdf";
 import { HeaderContainer, Photo } from "../../styles/Header";
 import { TextPrimary, TextSecondary } from "../../styles/GeneralComponents";
 
