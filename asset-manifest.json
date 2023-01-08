@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-daniel/static/css/main.29d70c3e.css",
-    "main.js": "/portfolio-daniel/static/js/main.40dd3441.js",
+    "main.js": "/portfolio-daniel/static/js/main.b7ffb554.js",
     "static/media/foto-curriculum.jpg": "/portfolio-daniel/static/media/foto-curriculum.b4132c1727aafa9b8698.jpg",
     "static/media/bestWorldBurger.jpg": "/portfolio-daniel/static/media/bestWorldBurger.816829eaa846ae55402e.jpg",
     "static/media/Curriculum_Daniel_Sanchez.pdf": "/portfolio-daniel/static/media/Curriculum_Daniel_Sanchez.d256af8227224062fa62.pdf",
@@ -22,10 +22,10 @@
     "static/media/javascript-1.svg": "/portfolio-daniel/static/media/javascript-1.f2831b1d94854d6f9466615373fdf6da.svg",
     "static/media/material-ui-1.svg": "/portfolio-daniel/static/media/material-ui-1.3491f5a6cd64624d3ee736376d443db5.svg",
     "main.29d70c3e.css.map": "/portfolio-daniel/static/css/main.29d70c3e.css.map",
-    "main.40dd3441.js.map": "/portfolio-daniel/static/js/main.40dd3441.js.map"
+    "main.b7ffb554.js.map": "/portfolio-daniel/static/js/main.b7ffb554.js.map"
   },
   "entrypoints": [
     "static/css/main.29d70c3e.css",
-    "static/js/main.40dd3441.js"
+    "static/js/main.b7ffb554.js"
   ]
 }
