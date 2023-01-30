@@ -1,7 +1,17 @@
 import imgBWB from "../../assets/photoProjects/bestWorldBurger.jpg";
 import imgSW from "../../assets/photoProjects/starWars.jpg";
+import imgTadavi from "../../assets/photoProjects/tadaviTours.jpg";
 
 export const projects = [
+  {
+    imgProject: imgTadavi,
+    title: "Tadavi Tours",
+
+    description:
+      "Aplicación web donde podrás encontrar el sitio de tus sueños para poder relajarte y disfrutar de tus vacaciones merecidas.",
+    link: "https://tadavi.vercel.app/",
+    gitLink: "https://github.com/Dasave85/tadavi.git",
+  },
   {
     imgProject: imgBWB,
     title: "Best World Burgers",
